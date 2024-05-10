@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Inscrição</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-header">
+            <h1>Formulário de Inscrição</h1>
+        </div>
+           
+        <div class="form-body">
+            <h2>Formulário</h2>
+            <p>Preencha seus dados</p>
+            <form>
+                <div class="box-input">
+                    <!-- Nome -->
+                    <div class="box">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome">
+                    </div>
+                    <!-- E-mail -->
+                    <div class="box">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email">
+                    </div>
+                    <!-- Endereço -->
+                    <div class="box">
+                        <label for="endereco">Endereço:</label>
+                        <input type="text" name="endereco">
+                    </div>
+                    <!-- Cidade -->
+                    <div class="box">
+                        <label for="city">Cidade:</label>
+                        <input type="text" name="city">
+                    </div>
+                    <!-- Telefone -->
+                    <div class="box">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" name="telefone" required placeholder="(xx) xxxxx-xxxx">
+                    </div>
+                    <!-- Usuario-->
+                    <div class="box">
+                        <label for="usuario">Usuário:</label>
+                        <input type="text" name="usuario" placeholder="Entre com seu Login">
+                    </div>
+                    <!-- senha-->
+                    <div class="box">
+                        <label for="password">Senha:</label>
+                        <input type="password" name="senha">
+                    </div>
+
+                    <!-- envio de form -->
+                    <div class="button">
+                        <input type="reset" value="limpar">
+                        <input type="submit" value="Finalizar minha Inscrição">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
